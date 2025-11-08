@@ -16,3 +16,7 @@ variable "sg_description" {
 variable "sg_tags" {
   default = ""
 }
+
+variable "vpc_id" {
+  type = string
+}
